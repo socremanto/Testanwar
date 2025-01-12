@@ -15,9 +15,10 @@
     "incremental": true,
     "baseUrl": ".",  // Root directory
     "paths": {
-      "@/*": ["./app/*"],  // General alias for app folder
-      "@/components/*": ["./components/*"],  // Correct alias for components folder
-      "@/lib/*": ["./lib/*"]  // Alias for the lib folder
+      "@/*": ["./app/*"],  // Adjusted to point to app folder correctly
+      "@/components/*": ["./components/*"],  // Corrected path for components
+      "@/lib/*": ["./lib/*"],  // Corrected path for lib
+      "@/app/components/*": ["./app/components/*"]  // Added alias for app components
     },
     "plugins": [
       {
