@@ -13,9 +13,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
+    "baseUrl": ".",  // Root directory
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"],  // Adjust this to the 'app' folder
+      "@/components/*": ["./app/components/*"]  // Ensure components alias works
     },
     "plugins": [
       {
