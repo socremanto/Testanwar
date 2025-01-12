@@ -5,9 +5,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import EventCountdown from '@/components/events/EventCountdown'
 import AgendaAccordion from '@/components/events/AgendaAccordion'
 import PackageCards from '@/components/events/PackageCards'
-import TestimonialSlider from '@/components/events/TestimonialSlider'
-import SpeakerGrid from '@/components/events/SpeakerGrid'
-import SocialFeed from '@/components/events/SocialFeed'
+// Removed missing imports and replaced them with available ones
+// import TestimonialSlider from '@/components/events/TestimonialSlider' 
+// import SpeakerGrid from '@/components/events/SpeakerGrid'
+// import SocialFeed from '@/components/events/SocialFeed'
 
 export default function AnnualNetworkMeeting() {
   return (
@@ -56,7 +57,7 @@ export default function AnnualNetworkMeeting() {
             on collaboration, innovation, and sustainable growth in international trade.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
+            {[ 
               { title: "500+", description: "Trade Professionals" },
               { title: "50+", description: "Industry Experts" },
               { title: "3", description: "Days of Networking" },
@@ -98,7 +99,8 @@ export default function AnnualNetworkMeeting() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-6 text-center">Featured Speakers</h2>
-          <SpeakerGrid />
+          {/* Replaced with a placeholder for now */}
+          <div className="text-center">Speakers Section Placeholder</div>
         </div>
       </section>
 
@@ -106,7 +108,8 @@ export default function AnnualNetworkMeeting() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-6 text-center">What Our Attendees Say</h2>
-          <TestimonialSlider />
+          {/* Replaced with a placeholder for now */}
+          <div className="text-center">Testimonial Slider Placeholder</div>
         </div>
       </section>
 
@@ -146,7 +149,8 @@ export default function AnnualNetworkMeeting() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-6 text-center">Join the Conversation</h2>
           <p className="text-center mb-8">Follow #TransMENA2024 for event updates</p>
-          <SocialFeed hashtag="TransMENA2024" />
+          {/* Replaced with a placeholder for now */}
+          <div className="text-center">Social Feed Placeholder</div>
         </div>
       </section>
 
@@ -180,4 +184,3 @@ export default function AnnualNetworkMeeting() {
     </main>
   )
 }
-

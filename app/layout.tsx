@@ -19,9 +19,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Add other necessary meta tags here */}
+      </head>
       <body className={inter.className}>
-        {/* Wrap the children with the Client Component */}
-        <RootLayoutClient>{children}</RootLayoutClient>
+        {/* Root Layout Client */}
+        <RootLayoutClient>
+          {children}
+        </RootLayoutClient>
+
+        {/* ChatBot component (conditionally rendered if needed) */}
+        <ChatBot />
       </body>
     </html>
   );

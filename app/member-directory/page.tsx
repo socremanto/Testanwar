@@ -1,4 +1,4 @@
-import MemberDirectory from '@/components/MemberDirectory/MemberDirectory'
+import MemberDirectory from '@/app/components/MemberDirectory/MemberDirectory'
 
 export default function MemberDirectoryPage() {
   return (
