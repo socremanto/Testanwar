@@ -15,9 +15,9 @@
     "incremental": true,
     "baseUrl": ".",  // Root directory
     "paths": {
-      "@/*": ["./app/*"],  // Resolves @/ to app folder
-      "@/components/*": ["./app/components/*"],  // Resolves @/components to app/components folder
-      "@/app/*": ["./app/*"]  // Resolves @/app to app folder (for consistency)
+      "@/*": ["./app/*"],  // General alias for app folder
+      "@/components/*": ["./components/*"],  // Correct alias for components folder
+      "@/lib/*": ["./lib/*"]  // Alias for the lib folder
     },
     "plugins": [
       {
@@ -26,12 +26,10 @@
     ]
   },
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "next-env.d.ts", 
+    "**/*.ts", 
+    "**/*.tsx", 
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

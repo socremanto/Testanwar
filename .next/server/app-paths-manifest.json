@@ -1,5 +1,23 @@
 {
+  "/api/chat/route": "app/api/chat/route.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/become-a-partner/page": "app/become-a-partner/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/cookie-policy/page": "app/cookie-policy/page.js",
+  "/events/annual-network-meeting/page": "app/events/annual-network-meeting/page.js",
+  "/events/page": "app/events/page.js",
+  "/login/page": "app/login/page.js",
+  "/member-directory/page": "app/member-directory/page.js",
+  "/membership-application/page": "app/membership-application/page.js",
   "/page": "app/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/partners/page": "app/partners/page.js",
+  "/quote-request/page": "app/quote-request/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/resources/page": "app/resources/page.js",
+  "/services/page": "app/services/page.js",
+  "/terms-of-use/page": "app/terms-of-use/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
 }
